@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="icon_light_theme">#8A000000</color>
+    <color name="icon_dark_theme">#FFFFFFFF</color>
+
+    <color name="selected_dark">#0FFFFFFF</color>
+    <color name="selected_light">#0F000000</color>
+
+    <color name="titlebar_color">#50cccccc</color>
+    <color name="titlebar_color_gray">#cccccc</color>
+
+</resources>

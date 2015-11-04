@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/titlebar_hight"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:id="@+id/logo"
+
+        android:src="@mipmap/logo"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/logo_size_magin_left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fly Browser"
+        android:id="@+id/logo_name"
+        android:textSize="@dimen/logo_name_size"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/logo" />
+</RelativeLayout>

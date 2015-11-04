@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">FlyBrowser</string>
+    <string name="action_bookmarks">Bookmarks</string>
+    <string name="action_ok">OK</string>
+    <string name="untitled">Untitled</string>
+    <string name="bookmark_export_path">Bookmarks exported to</string>
+    <string name="message_import">Bookmarks Were Imported</string>
+    <string name="title_error">Error</string>
+    <string name="import_bookmark_error">Could not import bookmarks from file</string>
+    <string name="download_sdcard_busy_dlg_msg" >The storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="download_sdcard_busy_dlg_title">USB storage unavailable</string>
+    <string name="download_no_sdcard_dlg_msg" >USB storage is required to download the file.</string>
+    <string name="download_no_sdcard_dlg_title" >No SD card</string>
+    <string name="problem_download">Invalid URL encountered, cannot download</string>
+    <string name="cannot_download">Can only download \"http\" or \"https\" URLs.</string>
+    <string name="problem_location_download">Cannot download to the specified location</string>
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="dialog_download">Do you want to download this file?</string>
+    <string name="action_download">Download</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="message_certificate_date_invalid">date of certificate is invalid</string>
+    <string name="message_certificate_expired">certificate is expired</string>
+    <string name="message_certificate_domain_mismatch">domain in certificate does not match the site domain</string>
+    <string name="message_certificate_invalid">certificate is invalid</string>
+    <string name="message_certificate_not_yet_valid">certificate is not yet valid</string>
+    <string name="message_certificate_untrusted">certificate is not trusted</string>
+    <string name="message_insecure_connection">Connection to this site is not secure:\n%1$s\nProceed anyway?</string>
+    <string name="title_warning">Warning</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="title_form_resubmission">Form Resubmission</string>
+    <string name="message_form_resubmission">Would you like to resend the data?</string>
+    <string name="location">Location Access</string>
+    <string name="message_location">\nWould like to use your location</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_dont_allow">Don\'t Allow</string>
+    <string name="action_new_tab">New Tab</string>
+    <string name="action_history">History</string>
+    <string name="home">Homepage</string>
+    <string name="search_input_hit">Search or Type URL</string>
+    <string name="http_proxy">HTTP Proxy</string>
+    <string-array name="proxy_choices_array">
+        <item>None</item>
+        <item>Orbot</item>
+        <item>I2P</item>
+        <item>Manual</item>
+    </string-array>
+    <string name="use_tor_prompt">It looks like you have Orbot installed. Do you want to use Tor?</string>
+    <string name="use_i2p_prompt">It looks like you have I2P installed. Do you want to use I2P?</string>
+    <string name="i2p_not_running">I2P is not running.</string>
+    <string name="i2p_tunnels_not_ready">I2P tunnels are not ready yet.</string>
+    <string name="install_orbot">Please install Orbot in order to proxy with Tor.</string>
+    <string name="message_blocked_local">Local file has been blocked from loading</string>
+    <string name="title_file_chooser">File Chooser</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="dialog_history_long_press">What would you like to do with this history item?</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_open">Open</string>
+    <string name="dialog_image">What would you like to do with this image?</string>
+    <string name="dialog_link">What would you like to do with this link?</string>
+    <string name="action_copy">Copy Link</string>
+</resources>

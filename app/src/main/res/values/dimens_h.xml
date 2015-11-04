@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="titlebar_hight">98px</dimen>
+    <dimen name="titlebar_hight_with_progress">101px</dimen>
+    <dimen name="titlebar_hight__progress">3px</dimen>
+    <dimen name="browser_scrollview_head_fl_hight">420px</dimen>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<www.flybrowser.net.flybrowser.view.StickyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/browser_scrollview_head_fl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/browser_scrollview_head_fl_hight">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/head_image" />
+
+            <include android:id="@+id/browser_scrollview_head_logo_bar" layout="@layout/logo_titlebar" ></include>
+
+            <View  android:id="@+id/browser_scrollview_head_search_bar"
+                android:layout_width="match_parent" android:layout_height="@dimen/titlebar_hight"
+                android:layout_gravity="bottom"
+                />
+            <!--  <include android:id="@+id/browser_scrollview_head_search_bar" layout="@layout/search_titlebar" ></include> !-->
+
+        </FrameLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:background="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:background="@color/colorAccent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:background="@color/icon_dark_theme" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:background="@color/titlebar_color" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:background="@color/icon_light_theme" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:background="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+</www.flybrowser.net.flybrowser.view.StickyScrollView>

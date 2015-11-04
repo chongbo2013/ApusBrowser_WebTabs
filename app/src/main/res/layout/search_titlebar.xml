@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/titlebar_hight"
+    android:visibility="visible"
+    android:background="@android:color/white"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:id="@+id/logo_two"
+        android:layout_gravity="right|center_vertical"
+        android:src="@mipmap/search_voice2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:paddingRight="10dip"
+        android:layout_marginEnd="@dimen/search_maginRight"
+        android:layout_marginStart="@dimen/logo_size_magin_left" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/search_input_hit"
+        android:id="@+id/tv_input"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/logo_size_magin_left"
+        android:layout_marginEnd="@dimen/logo_size_magin_left"
+        android:layout_marginTop="@dimen/logo_size_magin_top"
+        android:layout_marginBottom="@dimen/logo_size_magin_top"
+        android:textSize="@dimen/logo_text_size"
+        android:background="@color/titlebar_color"
+        android:textColor="@color/titlebar_color_gray"
+        android:paddingLeft="10dip"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/logo"
+        android:imeOptions="actionGo"
+        android:inputType="textUri"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"/>
+
+    <TextView
+        android:layout_width="@dimen/search_maginRight"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="搜索"
+        android:gravity="center"
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/tv_go"
+        android:layout_marginEnd="@dimen/logo_size_magin_left"
+        />
+
+
+</FrameLayout>

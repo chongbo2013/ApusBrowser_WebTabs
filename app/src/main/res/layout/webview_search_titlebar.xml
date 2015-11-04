@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="@dimen/titlebar_hight_with_progress"
+    android:visibility="visible"
+    android:background="@android:color/white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/search_input_hit"
+        android:id="@+id/tv_input"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/logo_size_magin_left"
+        android:layout_marginEnd="@dimen/logo_size_magin_left"
+        android:layout_marginTop="@dimen/logo_size_magin_top"
+        android:layout_marginBottom="@dimen/logo_size_magin_top"
+        android:textSize="@dimen/logo_text_size"
+        android:background="@color/titlebar_color"
+        android:textColor="@color/titlebar_color_gray"
+        android:paddingLeft="@dimen/logo_size"
+        android:paddingRight="@dimen/search_input_maginRight"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/logo"
+        android:imeOptions="actionGo"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="@dimen/logo_size"
+        android:layout_height="@dimen/logo_size"
+        android:id="@+id/logo_two"
+        android:layout_gravity="right|center_vertical"
+        android:src="@mipmap/search_voice2"
+        android:layout_marginEnd="@dimen/search_maginRight"
+        android:layout_marginStart="@dimen/logo_size_magin_left" />
+
+
+
+
+    <TextView
+        android:layout_width="@dimen/search_maginRight"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="搜索"
+        android:gravity="center"
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/tv_go"
+        android:layout_marginEnd="@dimen/logo_size_magin_left"
+        />
+
+
+
+    <ImageView
+        android:layout_width="@dimen/bookmark_size"
+        android:layout_height="@dimen/bookmark_size"
+        android:id="@+id/logo_bookmark"
+        android:layout_gravity="left|center_vertical"
+        android:src="@mipmap/bookmark_icon_active"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/search_maginRight"
+        android:layout_marginStart="@dimen/search_bar_magin_start" />
+
+    <www.flybrowser.net.flybrowser.view.AnimatedProgressBar
+        android:id="@+id/mProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar_hight__progress"
+        custom:backgroundColor="#00000000"
+        custom:bidirectionalAnimate="false"
+        custom:progressColor="?attr/colorAccent"
+        android:layout_gravity="bottom"></www.flybrowser.net.flybrowser.view.AnimatedProgressBar>
+</FrameLayout>

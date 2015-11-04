@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_size">65px</dimen>
+    <dimen name="logo_size_magin_left">20px</dimen>
+    <dimen name="logo_name_size">40px</dimen>
+    <dimen name="logo_size_magin_top">10px</dimen>
+    <dimen name="logo_text_size">28px</dimen>
+    <dimen name="search_maginRight">100px</dimen>
+    <dimen name="search_input_maginRight">160px</dimen>
+    <dimen name="search_bar_magin_start">30px</dimen>
+    <dimen name="bookmark_size">38px</dimen>
+</resources>

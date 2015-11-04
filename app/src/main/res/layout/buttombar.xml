@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/buttombar_containter"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/titlebar_hight"
+    android:visibility="visible"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:background="@android:color/black"
+    >
+
+    <ImageView
+        android:id="@+id/menu_back"
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:src="@mipmap/back"
+        android:layout_weight="1"
+        android:scaleType="center"
+ />
+    <ImageView
+        android:id="@+id/menu_forward"
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:src="@mipmap/right_arrow"
+        android:layout_weight="1"
+        android:scaleType="center"
+        />
+    <ImageView
+    android:id="@+id/menu_more"
+    android:layout_height="match_parent"
+    android:layout_width="0dip"
+    android:src="@mipmap/menu_icon"
+    android:layout_weight="1"
+    android:scaleType="center"
+    />
+    <ImageView
+        android:id="@+id/menu_tab"
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:src="@mipmap/tab_icon"
+        android:layout_weight="1"
+        android:scaleType="center"
+        />
+    <ImageView
+        android:id="@+id/menu_home"
+        android:layout_height="match_parent"
+        android:layout_width="0dip"
+        android:src="@mipmap/home_icon"
+        android:layout_weight="1"
+        android:scaleType="center"
+        />
+</LinearLayout>
